@@ -1,5 +1,5 @@
 <span>
-### Tensorflow MNIST
+### MNIST of Tensorflow
 
 ```python
 Python 3.5.2 (default, Nov 17 2016, 17:05:23) 
