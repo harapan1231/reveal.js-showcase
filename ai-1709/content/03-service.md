@@ -3,7 +3,7 @@
 
 - Freemium
     - Amazon Machine Learning
-    - Azure Machine Learning
+    - Microsoft Azure Machine Learning
     - Google Cloud Platform - AI
     - IBM Bluemix (Watson API)
     - LINE Messaging API

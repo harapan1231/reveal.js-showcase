@@ -1,5 +1,5 @@
 <span>
-Free or freemium services and products are avairable.
+Free or freemium helpers are avairable.
 
 - Server Building
     - AWS

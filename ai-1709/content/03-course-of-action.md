@@ -1,6 +1,9 @@
 <span>
 ### Courses of action
 
-- Chatbot
-- Embedded in ideas
+- At First, Make A Chatbot.
+- Embed Its Essence In Various Ideas.
+
+*Stimulate communication,*    
+*excite information.*
 </span>
