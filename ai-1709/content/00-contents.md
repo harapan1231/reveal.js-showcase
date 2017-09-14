@@ -4,7 +4,8 @@
     <ul>
         <li style="color: #e90;">Introduction</li>
         <li style="color: #e90;">Summary</li>
+        <li style="color: #e90;">About Development</li>
         <li style="color: #e90;">Business Examples</li>
-        <li style="color: #e90;">Develpmental Tips</li>
+        <li style="color: #e90;">Tips And Cheers</li>
     </ul>
 </div>
