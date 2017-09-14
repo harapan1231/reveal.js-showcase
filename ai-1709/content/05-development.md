@@ -4,7 +4,7 @@ Free or freemium helpers are avairable.
 - Server Building
     - AWS
     - Azure
-    - Raspberry Pie
+    - Raspberry Pie (excpt.)
 - Application Launching
     - heroku
     - cloud9
