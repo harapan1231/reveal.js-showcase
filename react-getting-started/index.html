@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no" />
+    <title>React - Getting Started</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/prismjs@1/themes/prism-dark.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/normalize.css@7/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/spectacle/lib/themes/default/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/prismjs@1/prism.js"></script>
+    <script src="https://unpkg.com/prismjs@1/components/prism-jsx.min.js"></script>
+    <script src="https://unpkg.com/prop-types@15/prop-types.js"></script>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.js"></script>
+    <script src="https://unpkg.com/spectacle/dist/spectacle.js"></script>
+    <script src="https://unpkg.com/spectacle/lib/one-page.js"></script>
+    <script type="text/spectacle">
+      () => {
+        return (
+	  <Deck transition={["zoom", "slide"]} transitionDuration={800}>
+	    <Slide bgColor="primary">
+	      <Heading size={2} fit>
+	        React
+	      </Heading>
+	      <Heading size={1}>
+	        Getting Started
+	      </Heading>
+	    </Slide>
+	    <Slide bgColor="primary">
+	      <Heading>
+	        Start To Learn
+	      </Heading>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Hello World!</Heading>
+	      <Text textColor="yellow">まずは公式サイトから。最初の React コードを読んでみましょう。</Text>
+	      <Link href="https://reactjs.org/docs/hello-world.html" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Tutorial</Heading>
+	      <Text textColor="yellow">なんだか難しそうですが、さーっと眺めてみましょう。どんなコードでどのような Web ページをつくれるのでしょうか。</Text>
+	      <Link href="https://reactjs.org/tutorial/tutorial.html" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Re: Learn</Heading>
+	      <Text textColor="yellow">日本語のページで内容を再確認しましょう。読みやすいですね。ただし公式の内容ではないことには注意してください。</Text>
+	      <Link href="https://qiita.com/tomzoh/items/7fabe7cb57dd96425867" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="primary">
+	      <Heading>
+	        Write Code By Yourself
+	      </Heading>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Playground</Heading>
+	      <Text textColor="yellow">実際にいろいろ書いて、試してみましょう。そのためのサービスは複数あります。好みのデザインのものを使ってください。</Text>
+	      <List>
+	        <ListItem><Link href="https://jsfiddle.net/reactjs/69z2wepo/" target="_blank">JS Fiddle</Link></ListItem>
+	        <ListItem><Link href="https://codepen.io/Schmohe/pen/EyLddd" target="_blank">Codepen</Link></ListItem>
+	        <ListItem><Link href="https://codesandbox.io/" target="_blank">Code Sandbox</Link></ListItem>
+	      </List>
+	    </Slide>
+	    <Slide bgColor="primary">
+	      <Heading>
+	        How To Build A Development Environment
+	      </Heading>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Node.js</Heading>
+	      <Text textColor="yellow">昨今フロントエンド開発では、何はともあれ Node.js と npm です。</Text>
+	      <Link href="https://www.webprofessional.jp/beginners-guide-node-package-manager/" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>npm Packages</Heading>
+	      <Text textColor="yellow">Git に Babel に Webpack...いろいろな開発支援のための技術とツールがあります。</Text>
+	      <Link href="https://qiita.com/akirakudo/items/77c3cd49e2bf39da79dd" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="primary">
+	      <Heading>
+	        A Note: A React's Fact
+	      </Heading>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Raw React Virtual DOM</Heading>
+	      <Text textColor="yellow">JSX（JavaScript eXtention）というタグ形式で書くのが一般的な React ですが、中ではれっきとした Javascript がオブジェとを操作しているのです。</Text>
+	      <Link href="http://postd.cc/learn-raw-react-no-jsx-flux-es6-webpack/" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="primary">
+	      <Heading>
+	        A Sidewalk: Other Choices
+	      </Heading>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Mithril</Heading>
+	      <Text textColor="yellow">軽量でわかりやすいフレームワークです。SPA（Single Page Application）開発の入門に適しています。</Text>
+	      <Link href="http://mithril-ja.js.org/" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Vue</Heading>
+	      <Text textColor="yellow">MVCモデルのフレームワークです。いま最も人気のあるものの一つです。</Text>
+	      <Link href="https://jp.vuejs.org/v2/guide/" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Knockout</Heading>
+	      <Text textColor="yellow">かつて人気を博したフレームワークです。データバインドの概念は後継のフレームワークたちに引き継がれています。</Text>
+	      <Link href="http://kojs.sukobuto.com/docs/introduction" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="primary">
+	      <Heading>Showcases</Heading>
+	    </Slide>
+	    <Slide bgColor="secondary">
+	      <Heading>Try To Create Your App!</Heading>
+	      <Text textColor="yellow">こんな画面も React でつくれます。アイディアを組合せてさまざまなものをつくってみましょう。</Text>
+	      <Link href="https://react.rocks/" target="_blank">Click To Jump!</Link>
+	    </Slide>
+	    <Slide bgColor="primary">
+	      <Heading>Enjoy!</Heading>
+	    </Slide>
+          </Deck>
+        );
+      }
+    </script>
+</body>
+</html>
