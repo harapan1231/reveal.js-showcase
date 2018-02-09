@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC Sites: Getting Started</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/night.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs2015.min.css" />
+    <link rel="stylesheet" href="lib/button.css" />
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-background-color="#ffffff">
+                <section data-markdown="content/00-title.md"></section>
+                <section data-markdown="" data-background-image="content/00-title.gif" data-background-size="contain,contain"></section>
+                <section data-markdown="content/00-contents.md" data-background-image="content/00-title.gif" data-background-size="contain,contain"></section>
+            </section>
+            <section>
+                <section><h2>ご提案の骨子</h2></section>
+                <section data-markdown="" data-background-image="content/01-theme.jpg" data-background-size="contain,contain">
+                </section>
+                <section data-markdown="content/01-theme.md"></section>
+            </section>
+            <section>
+		    <section><h2>背景<br>ならびに<br>期待する効果</h2></section>
+                <section data-markdown="" data-background-image="content/02-backgrounds-and-expected-effects.jpg" data-background-size="contain,contain">
+                </section>
+                <section data-markdown="content/02-backgrounds.md"></section>
+                <section data-markdown="content/02-expected-effects.md"></section>
+            </section>
+            <section>
+                <section><h2>ご提案内容</h2></section>
+                <section data-markdown="" data-background-image="content/03-opencart.png" data-background-size="contain,contain">
+                </section>
+                <section data-markdown="content/03-proposal.md"></section>
+            </section>
+            <section>
+                <section><h2>Demonstration</h2></section>
+		<section data-background-color="#121648" data-background-image="" data-background-size="contain,contain">
+		    <ul>
+			<li><a href="https://opencart.nabekobo.com" target="_blank">購買者メニュー</a></li>
+			<li><a href="https://opencart.nabekobo.com/admin" target="_blank">管理者メニュー</a> (ec_admin)</li>
+		    </ul>
+		</section>
+            </section>
+            <section>
+		    <section><h2>今後の展望</h2></section>
+                <section data-markdown="" data-background-image="content/05-tips-and-tomorrows.jpg" data-background-size="contain,contain">
+                </section>
+                <section data-markdown="content/05-range-definition-01.md"></section>
+                <section data-markdown="content/05-range-definition-02.md"></section>
+                <section data-markdown="content/05-tips.md"></section>
+                <section data-markdown="content/05-tomorrows.md"></section>
+                <section>
+                    <button onclick="var el = document.getElementById('end-greet'); el.style.display = el.style.display ? '' : 'none';">End</button>
+                    <div id="end-greet" style="display: none;">
+                        <p>Thank you for your listening (or reading)!</p>
+                        <p style="font-size: small;">Supported by reveal.js</p>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            dependencies: [
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            ]
+        });
+    </script>
+</body>
+</html>
